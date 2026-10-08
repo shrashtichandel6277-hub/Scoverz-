@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none">
+  <defs>
+    <!-- Authentic electric purple-to-violet linear gradient from reference -->
+    <linearGradient id="scoverzOfficialGrad" x1="22%" y1="15%" x2="78%" y2="85%">
+      <stop offset="0%" stop-color="#4e12d8" />
+      <stop offset="22%" stop-color="#5e17e5" />
+      <stop offset="52%" stop-color="#781fe9" />
+      <stop offset="80%" stop-color="#8d28ed" />
+      <stop offset="100%" stop-color="#791bee" />
+    </linearGradient>
+  </defs>
+
+  <!-- Centered in 1000x1000 viewport with genuinely transparent background -->
+  <g transform="translate(500, 500)">
+    <!-- 1. Upper Oval Planet Hemisphere -->
+    <path
+      d="M 42 -225
+         C -55 -238 -156 -176 -198 -82
+         C -213 -49 -212 -10 -201 25
+         C -189 -9 -158 -36 -118 -66
+         C -71 -101 -17 -144 46 -188
+         C 72 -206 91 -217 94 -217
+         C 77 -222 60 -224 42 -225 Z"
+      fill="url(#scoverzOfficialGrad)"
+    />
+
+    <!-- 2. Main Stylized S Ribbon & Planetary Orbital Wings -->
+    <path
+      d="M 94 -217
+         C 148 -238 244 -256 304 -222
+         C 345 -199 347 -161 311 -123
+         C 277 -87 241 -63 233 -73
+         C 265 -119 287 -153 275 -179
+         C 257 -213 185 -209 94 -177
+         C 20 -151 -34 -99 -44 -47
+         C -52 -5 -28 11 26 3
+         C 86 -5 178 -11 206 45
+         C 224 81 204 147 148 199
+         C 86 255 -14 283 -100 267
+         C -166 255 -234 251 -282 273
+         C -304 283 -306 291 -298 285
+         C -272 263 -244 189 -228 139
+         C -236 165 -260 227 -260 253
+         C -220 229 -156 225 -96 233
+         C -14 245 70 219 122 169
+         C 170 123 184 75 164 51
+         C 142 25 62 27 6 37
+         C -72 51 -116 21 -108 -41
+         C -100 -111 -26 -175 70 -207
+         C 78 -211 86 -213 94 -217 Z"
+      fill="url(#scoverzOfficialGrad)"
+    />
+  </g>
+</svg>

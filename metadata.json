@@ -1,0 +1,6 @@
+{
+  "name": "SCOVERZ - Technology & Digital Solutions",
+  "description": "Creating Your Digital Universe. Scoverz helps small businesses and enterprises build, automate, and scale with smart digital solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: #f8fafc;
+    color: #1e293b;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+/* Light theme card panel with soft border & subtle shadow */
+.light-card {
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
+}
+
+.light-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.light-card-hover:hover {
+  border-color: rgba(168, 85, 247, 0.45);
+  box-shadow: 0 12px 30px -4px rgba(147, 51, 234, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Subtle light grid background */
+.bg-light-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+}
+
+/* Light ambient radial glow */
+.radial-glow-light {
+  background: radial-gradient(circle at 50% 25%, rgba(168, 85, 247, 0.08) 0%, rgba(99, 102, 241, 0.03) 45%, transparent 75%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
